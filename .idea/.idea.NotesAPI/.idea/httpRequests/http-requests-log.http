@@ -1,0 +1,72 @@
+GET http://localhost:5003/api/note/1
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-09-18T150543.200.json
+
+###
+
+GET http://localhost:5003/api/note/1
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:5003/api/note/1
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:5003/api/1
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+GET http://localhost:5003/api/notes/1
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:5003/api/notes
+Content-Type: application/json
+Content-Length: 110
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "Sample Noteee",
+  "content": "This is a safvmple note.",
+  "createdOn": "2024-09-18T00:00:00Z"
+}
+
+###
+
+POST http://localhost:5003/api/notes
+Content-Type: application/json
+Content-Length: 106
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "Sample Note",
+  "content": "This is a sample note.",
+  "createdOn": "2024-09-18T00:00:00Z"
+}
+
+###
+
